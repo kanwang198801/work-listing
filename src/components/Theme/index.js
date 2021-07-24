@@ -8,14 +8,14 @@ const { Footer, Content } = Layout;
 
 const Theme = ({ children, id, loading = false, error = null }) => {
   return (
-    <Layout className={styles.layout} style={{ minHeight: '100vh' }}>
+    <Layout className={styles.layout} style={{ minHeight: '100vh' }} id={id}>
       <Content className={styles.main}>
         {loading ? (
           <Loader />
         ) : error ? (
           <p> Error: {error} </p>
         ) : (
-          <div id={id}>{children}</div>
+          <div>{children}</div>
         )}
       </Content>
       <Footer style={{ textAlign: 'center' }}>Copyright &copy;</Footer>

@@ -12,9 +12,9 @@ const SingleImage = ({ work }) => {
       <Image
         width={WIDTH}
         height={HEIGHT}
-        src={work?.urls?.[0]?.link}
-        alt={work?.filename}
-        preview={{ src: work?.urls?.[2]?.link }}
+        src={work.urls?.[0]?.link}
+        alt={work.filename}
+        preview={{ src: work.urls?.[2]?.link }}
         fallback={placeholder}
         placeholder={
           <Image

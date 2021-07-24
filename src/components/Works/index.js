@@ -6,10 +6,10 @@ import styles from './styles.module.css';
 
 const Works = ({ works }) => {
   return (
-    <div className={styles.worksContainer}>
+    <div className={styles.worksContainer} id="works">
       <Image.PreviewGroup>
         {works.map((work) => (
-          <div className={styles.workContainer}>
+          <div className={styles.workContainer} key={work?.id}>
             <SingleImage work={work} />
             <div>
               <strong>Model:</strong> {work.exif?.model}
