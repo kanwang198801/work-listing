@@ -1,0 +1,30 @@
+.worksContainer {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.workContainer {
+  flex-basis: 20%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .workContainer {
+    flex-basis: 33.33%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .workContainer {
+    flex-basis: 50%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .workContainer {
+    flex-basis: 100%;
+  }
+}
