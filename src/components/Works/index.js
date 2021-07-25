@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import PropTypes from 'prop-types';
 import SingleImage from '../Image';
 import { Image } from 'antd';
@@ -28,4 +28,4 @@ Works.propTypes = {
   works: PropTypes.array.isRequired
 };
 
-export default Works;
+export default memo(Works);

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import PropTypes from 'prop-types';
 import { Image } from 'antd';
 import styles from './styles.module.css';
@@ -33,4 +33,4 @@ SingleImage.propTypes = {
   work: PropTypes.object.isRequired
 };
 
-export default SingleImage;
+export default memo(SingleImage);

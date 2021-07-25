@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import PropTypes from 'prop-types';
 import { Radio, Button } from 'antd';
 import styles from './styles.module.css';
@@ -32,4 +32,4 @@ Filter.propTypes = {
   id: PropTypes.string.isRequired
 };
 
-export default Filter;
+export default memo(Filter);
