@@ -20,7 +20,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 Launches the test runner with test coverage, the default coverageThreshold is 80%.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run test:automation`
+### `npm run test:e2e`
 
 Launches the e2e test in cypress.\
 See the section about [cypress](https://docs.cypress.io) for more information.

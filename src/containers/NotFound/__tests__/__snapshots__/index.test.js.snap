@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFound Test Suite snapshot 1`] = `
+<section
+  className="ant-layout layout"
+  style={
+    Object {
+      "minHeight": "100vh",
+    }
+  }
+>
+  <main
+    className="ant-layout-content main"
+  >
+    <div>
+      <h1>
+        The page is not found
+      </h1>
+    </div>
+  </main>
+  <footer
+    className="ant-layout-footer"
+    style={
+      Object {
+        "textAlign": "center",
+      }
+    }
+  >
+    Copyright ©
+  </footer>
+</section>
+`;

@@ -20,11 +20,11 @@ export const filterWorks = (works, filters) =>
   });
 
 export const mapUnknownModelAndMakeToWorks = (works) =>
-  works.map((item) => ({
-    ...item,
+  works.map((work) => ({
+    ...work,
     exif: {
-      ...item.exif,
-      model: item?.exif?.model || 'Unknown Model',
-      make: item?.exif?.make || 'Unknown Make'
+      ...work.exif,
+      model: work?.exif?.model || 'Unknown Model',
+      make: work?.exif?.make || 'Unknown Make'
     }
   }));

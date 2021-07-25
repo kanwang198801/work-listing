@@ -8,7 +8,9 @@ const Filter = ({ title, onChange, onReset, value, options, id }) => {
     <div className={styles.filter} id={id}>
       <div>
         <h3>{title}</h3>
-        <Button onClick={onReset}> Reset</Button>
+        <Button onClick={onReset} id={`${id}-reset-button`}>
+          Reset
+        </Button>
       </div>
       <Radio.Group onChange={onChange} value={value}>
         {options.map((option) => (

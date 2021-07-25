@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter Test Suite snapshot 1`] = `
+<div
+  className="filter"
+  id="test-filter"
+>
+  <div>
+    <h3>
+      test filter
+    </h3>
+    <button
+      className="ant-btn"
+      id="test-filter-reset-button"
+      onClick={[Function]}
+      type="button"
+    >
+      <span>
+        Reset
+      </span>
+    </button>
+  </div>
+  <div
+    className="ant-radio-group ant-radio-group-outline"
+  >
+    <label
+      className="ant-radio-wrapper"
+    >
+      <span
+        className="ant-radio"
+        style={Object {}}
+      >
+        <input
+          checked={false}
+          className="ant-radio-input"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyPress={[Function]}
+          onKeyUp={[Function]}
+          type="radio"
+          value="test1"
+        />
+        <span
+          className="ant-radio-inner"
+        />
+      </span>
+      <span>
+        test1
+      </span>
+    </label>
+    <label
+      className="ant-radio-wrapper"
+    >
+      <span
+        className="ant-radio"
+        style={Object {}}
+      >
+        <input
+          checked={false}
+          className="ant-radio-input"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyPress={[Function]}
+          onKeyUp={[Function]}
+          type="radio"
+          value="test2"
+        />
+        <span
+          className="ant-radio-inner"
+        />
+      </span>
+      <span>
+        test2
+      </span>
+    </label>
+  </div>
+</div>
+`;

@@ -8,7 +8,6 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "antd": "^4.16.8",
-    "cypress": "^8.0.0",
     "graphql": "^15.5.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -22,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test:coverage": "npm test -- --coverage --watchAll=false",
-    "test:automation": "cypress open",
+    "test:e2e": "cypress open",
     "eject": "react-scripts eject"
   },
   "browserslist": {
@@ -44,7 +43,8 @@
       "!<rootDir>/path/to/dir/",
       "!<rootDir>/src/reportWebVitals.js",
       "!<rootDir>/src/App.js",
-      "!<rootDir>/src/index.js"
+      "!<rootDir>/src/index.js",
+      "!<rootDir>/src/api/*.{js,jsx,ts,tsx}"
     ],
     "coverageThreshold": {
       "global": {
@@ -59,6 +59,8 @@
     ]
   },
   "devDependencies": {
+    "@testing-library/cypress": "^8.0.0",
+    "cypress": "^8.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
     "prettier": "^2.3.2"
